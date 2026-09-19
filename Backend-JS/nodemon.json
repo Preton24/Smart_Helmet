@@ -1,0 +1,18 @@
+{
+    "ignore": [
+        "node_modules",
+        "venv",
+        "uploads",
+        "outputs",
+        "data",
+        "ML_model",
+        "test_analysis_output",
+        "test_analysis_output_v2",
+        "*.test.js",
+        "dist"
+    ],
+    "watch": [
+        "src"
+    ],
+    "ext": "js,mjs,cjs,json"
+}

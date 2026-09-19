@@ -1,0 +1,22 @@
+# Smart Helmet - Dual Model ML Service Requirements
+# Python 3.8+ required
+
+# Core ML/Vision Libraries
+ultralytics>=8.0.0      # YOLO v8 model loading and inference
+torch>=2.0.0            # PyTorch deep learning framework
+torchvision>=0.15.0     # Vision utilities for torch
+opencv-python>=4.6.0    # OpenCV for video processing
+numpy>=1.24.0           # Numerical computing
+
+# OCR for License Plate Extraction (installs paddlepaddle automatically)
+paddleocr>=2.7.0        # PaddleOCR for license plate recognition
+
+# Image Processing
+pillow>=10.0.0          # Python Imaging Library
+imageio>=2.25.0         # Image/video I/O
+
+# Utilities
+python-dotenv>=0.21.0   # Environment variable management
+pyyaml>=6.0             # YAML config parsing
+
+urllib3<2

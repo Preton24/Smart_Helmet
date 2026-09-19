@@ -1,0 +1,141 @@
+# -------------------------
+# Node / React Native
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Metro / bundler cache
+.expo/
+.expo-shared/
+.expo/web-build/
+.expo/cache/
+.expo/packager-info.json
+
+# React Native build folders
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/*.iml
+
+ios/
+
+# Watchman
+.watchmanconfig
+
+# TypeScript
+*.tsbuildinfo
+
+# Output
+dist/
+build/
+
+# -------------------------
+# Python
+# -------------------------
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django / Flask / FastAPI extras
+db.sqlite3
+instance/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.spec
+*.manifest
+*.pem
+
+# Mypy / Pylint / Coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# -------------------------
+# macOS system files
+# -------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+# .env
+# .env.* 
+# *.env
+# *.key
+# *.pem
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+*.tmp
+
+# -------------------------
+# General OS Trash
+# -------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------------
+# Misc Project Stuff
+# -------------------------
+tmp/
+temp/
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Expo specific
+web-build/
+.expo/*
+
+# -------------------------
+# Backend Outputs
+# -------------------------
+Backend-JS/outputs/
+Backend-JS/uploads/
+Backend-JS/processed/
+Backend-JS/test_analysis_output/
+Backend-JS/test_analysis_output_v2/
